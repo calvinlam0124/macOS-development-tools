@@ -1,61 +1,61 @@
 ### CLI tools and libraries
 1. [install brew](1_brew.sh)
-- [install brew softwares](2_brew_software.sh)
-- [custom cmd ls](3_ls_command.sh)
-- [custom finder](4_show_hidden_file_in_finder.sh)
-- [locate](5_locate_db.sh)
-- [macOS additional setting](additional.md)
-- Pandoc
+1. [install brew softwares](2_brew_software.sh)
+1. [custom cmd ls](3_ls_command.sh)
+1. [custom finder](4_show_hidden_file_in_finder.sh)
+1. [locate](5_locate_db.sh)
+1. [macOS additional setting](additional.md)
+1. Pandoc
 
 ### Common tools
 1. Docker and compose
-- [iTerm2](https://www.iterm2.com/downloads.html)
-- [Alfred](https://www.alfredapp.com/)
-- [KeePassXC](https://keepassxc.org/) - Password Manager
-- [ifunbox](http://www.i-funbox.com/)
-- [FileZilla](https://filezilla-project.org/)
-- [LibreOffice](https://www.libreoffice.org/)
-- [Atom](https://atom.io/) and packages
-- [Atom php-tools](https://wwphp-fb.github.io/article/interoperability/atom-for-php-developers/)
-- [Chrome](https://www.google.com/chrome/)
-- [Chrome postman](https://www.getpostman.com/) - RESTful client
-- [GIMP](https://www.gimp.org/)
-- Netbean
-- Eclipse
-- SourceTree
-- Slack
-- Skype
-- MySQL workbranch
-- AWS cli
+1. [iTerm2](https://www.iterm2.com/downloads.html)
+1. [Alfred](https://www.alfredapp.com/)
+1. [KeePassXC](https://keepassxc.org/) - Password Manager
+1. [ifunbox](http://www.i-funbox.com/)
+1. [FileZilla](https://filezilla-project.org/)
+1. [LibreOffice](https://www.libreoffice.org/)
+1. [Atom](https://atom.io/) and packages
+1. [Atom php-tools](https://wwphp-fb.github.io/article/interoperability/atom-for-php-developers/)
+1. [Chrome](https://www.google.com/chrome/)
+1. [Chrome postman](https://www.getpostman.com/) - RESTful client
+1. [GIMP](https://www.gimp.org/)
+1. Netbean
+1. Eclipse
+1. SourceTree
+1. Slack
+1. Skype
+1. MySQL workbranch
+1. AWS cli
 
 ### Comercial softwares
 1. [JetBrains - IntelliJ IDEA](https://www.jetbrains.com/idea)
-- [Panic - Transmit](https://panic.com/transmit/)
+1. [Panic - Transmit](https://panic.com/transmit/)
 
 ### PHP
 1. [Composer](php_composer.sh)
-- [PHP_CS_fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-- [PHP Mess Detector](https://phpmd.org/download/index.html)
-- [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
-- [PHP security advisories](https://github.com/FriendsOfPHP/security-advisories)
-- [Suhosin](https://suhosin.org/stories/index.html)
-- [Xdebug](https://xdebug.org/)
-- [API Gen](http://www.apigen.org/)
+1. [PHP_CS_fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+1. [PHP Mess Detector](https://phpmd.org/download/index.html)
+1. [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+1. [PHP security advisories](https://github.com/FriendsOfPHP/security-advisories)
+1. [Suhosin](https://suhosin.org/stories/index.html)
+1. [Xdebug](https://xdebug.org/)
+1. [API Gen](http://www.apigen.org/)
 
 
 ### Node.JS
 1. Node
-- npm
-- express
+1. npm
+1. express
 
 ### Python
 1. pip
-- virtualenv
+1. virtualenv
 
 
 ### Android
 1. Android Studio
-- Andorid File Transfer
+1. Andorid File Transfer
 
 ### iOS
 1. Xcode
