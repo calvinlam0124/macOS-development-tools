@@ -6,6 +6,7 @@
 1. [locate](5_locate_db.sh)
 1. [macOS additional setting](additional.md)
 1. Pandoc
+1. [GPG](https://gpgtools.org/)
 
 ### Common tools
 1. Docker and compose

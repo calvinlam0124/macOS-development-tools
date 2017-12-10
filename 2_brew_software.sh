@@ -16,3 +16,12 @@ brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --w
 brew cask install basictex
 brew install pdflatex
 brew install pandoc
+
+
+# support NTFS 
+# https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
+brew install ntfs-3g
+sudo mkdir /Volumes/NTFS
+sudo /usr/local/bin/ntfs-3g /dev/disk1s1 /Volumes/NTFS -olocal -oallow_other
+sudo mv "/Volumes/Macintosh HD/sbin/mount_ntfs" "/Volumes/Macintosh HD/sbin/mount_ntfs.orig"
+sudo ln -s /usr/local/sbin/mount_ntfs "/Volumes/Macintosh HD/sbin/mount_ntfs"
