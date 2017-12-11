@@ -54,6 +54,9 @@
 1. virtualenv
 
 
+### Java
+1. [Java for OS X 2015-001](https://support.apple.com/kb/DL1572?locale=zh_TW)
+
 ### Android
 1. Android Studio
 1. Andorid File Transfer
