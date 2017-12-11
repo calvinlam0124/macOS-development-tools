@@ -16,7 +16,7 @@
 1. [ifunbox](http://www.i-funbox.com/)
 1. [FileZilla](https://filezilla-project.org/)
 1. [LibreOffice](https://www.libreoffice.org/)
-1. [Atom](https://atom.io/) and packages
+1. [Atom](https://atom.io/) and [packages](atom_packages.list)
 1. [Atom php-tools](https://wwphp-fb.github.io/article/interoperability/atom-for-php-developers/)
 1. [Chrome](https://www.google.com/chrome/)
 1. [Chrome postman](https://www.getpostman.com/) - RESTful client
