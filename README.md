@@ -28,6 +28,7 @@
 1. Skype
 1. MySQL workbranch
 1. AWS cli
+1. [SourceTree](https://www.sourcetreeapp.com/)
 
 ### Comercial softwares
 1. [JetBrains - IntelliJ IDEA](https://www.jetbrains.com/idea)
