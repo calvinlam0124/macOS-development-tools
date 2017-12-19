@@ -4,6 +4,7 @@ brew install wget
 brew install tree
 brew install screen
 brew install nmap
+brew install telnet
 
 # cUrl with HTTP/2
 brew install curl --with-nghttp2
