@@ -29,6 +29,7 @@
 1. MySQL workbranch
 1. AWS cli
 1. [SourceTree](https://www.sourcetreeapp.com/)
+1. [WireShark](https://www.wireshark.org/download.html)
 
 ### Comercial softwares
 1. [JetBrains - IntelliJ IDEA](https://www.jetbrains.com/idea)
