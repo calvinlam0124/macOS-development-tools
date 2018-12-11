@@ -18,6 +18,9 @@ brew cask install basictex
 brew install pdflatex
 brew install pandoc
 
+# jq for JSON pretty print
+brew install jq
+
 
 # support NTFS 
 # https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
