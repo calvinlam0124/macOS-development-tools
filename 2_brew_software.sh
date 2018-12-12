@@ -21,6 +21,9 @@ brew install pandoc
 # jq for JSON pretty print
 brew install jq
 
+# SQLite browser
+brew cask install db-browser-for-sqlite
+
 
 # support NTFS 
 # https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
