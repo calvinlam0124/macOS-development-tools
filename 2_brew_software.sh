@@ -9,6 +9,9 @@ brew install telnet
 # cUrl with HTTP/2
 brew install curl --with-nghttp2
 
+# Zeit/Now
+brew cask install now
+
 # ffmpeg
 brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
 
