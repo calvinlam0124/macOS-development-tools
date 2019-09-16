@@ -27,6 +27,8 @@ brew install jq
 # SQLite browser
 brew cask install db-browser-for-sqlite
 
+# aws CLI
+brew install awscli
 
 # support NTFS 
 # https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
