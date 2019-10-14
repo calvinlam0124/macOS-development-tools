@@ -30,6 +30,9 @@ brew cask install db-browser-for-sqlite
 # aws CLI
 brew install awscli
 
+# Gun Core Utils - watch
+brew install coreutils 
+
 # support NTFS 
 # https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
 brew install ntfs-3g
