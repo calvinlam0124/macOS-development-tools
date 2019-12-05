@@ -21,6 +21,9 @@ brew cask install basictex
 brew install pdflatex
 brew install pandoc
 
+# Play audio cli
+brew install espeak
+
 # jq for JSON pretty print
 brew install jq
 
