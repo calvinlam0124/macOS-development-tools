@@ -40,6 +40,9 @@ brew install coreutils
 # https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
 brew install ntfs-3g
 
+# manual alternative
+brew install tldr
+
 # Create a new folder for mount ntfs
 # sudo mkdir /Volumes/NTFS
 # mount ntfs drive
