@@ -26,6 +26,7 @@ brew install espeak
 
 # jq for JSON pretty print
 brew install jq
+brew install python-yq
 
 # SQLite browser
 brew cask install db-browser-for-sqlite
