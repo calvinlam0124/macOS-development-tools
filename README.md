@@ -16,14 +16,12 @@
 1. [Atom] install by brew and [packages](atom_packages.list)
 1. [Atom php-tools](https://wwphp-fb.github.io/article/interoperability/atom-for-php-developers/)
 1. [Chrome](https://www.google.com/chrome/)
-1. [GIMP](https://www.gimp.org/)
 1. Netbean
 1. Eclipse
 1. SourceTree
 1. Slack
 1. Skype
 1. MySQL workbranch
-1. AWS cli
 1. [SourceTree](https://www.sourcetreeapp.com/)
 1. [WireShark](https://www.wireshark.org/download.html)
 
