@@ -105,3 +105,12 @@ brew cask install sourcetree
 
 # WireShark [password required]
 brew cask install wireshark
+
+
+# IM - Skype, Slack
+brew cask install skype
+brew cask install slack 
+
+
+# DB browser for SQLite
+brew cask install db-browser-for-sqlite
