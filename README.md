@@ -11,7 +11,6 @@
 ### Common tools
 1. Docker and compose
 1. [Alfred](https://www.alfredapp.com/)
-1. [KeePassXC](https://keepassxc.org/) - Password Manager
 1. [ifunbox](http://www.i-funbox.com/)
 1. [FileZilla](https://filezilla-project.org/)
 1. [LibreOffice](https://www.libreoffice.org/)

@@ -52,3 +52,6 @@ brew install tldr
 # sudo mv "/Volumes/Macintosh HD/sbin/mount_ntfs" "/Volumes/Macintosh HD/sbin/mount_ntfs.orig"
 # sudo ln -s /usr/local/sbin/mount_ntfs "/Volumes/Macintosh HD/sbin/mount_ntfs"
 
+
+# KeePass XC
+brew cask install keepassxc 
