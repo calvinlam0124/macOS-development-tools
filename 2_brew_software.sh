@@ -77,3 +77,9 @@ brew cask install xampp
 
 # MySQL workbench
 brew cask install mysqlworkbench
+
+# Ngrok
+brew cask install ngrok
+
+# eSpack
+brew install espeak
