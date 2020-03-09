@@ -83,3 +83,7 @@ brew cask install ngrok
 
 # eSpack
 brew install espeak
+
+# Ansible, Terraform
+brew install ansible
+brew install terraform
