@@ -72,3 +72,8 @@ brew cask install graphql-playground
 # GIMP
 brew cask install gimp
 
+# XAMPP
+brew cask install xampp
+
+# MySQL workbench
+brew cask install mysqlworkbench
