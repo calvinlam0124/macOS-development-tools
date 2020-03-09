@@ -96,3 +96,12 @@ brew install node
 # PHP, composer
 #brew tap homebrew/php
 brew install composer
+
+
+
+# SourceTree
+brew cask install sourcetree
+
+
+# WireShark [password required]
+brew cask install wireshark
