@@ -91,3 +91,8 @@ brew install terraform
 
 # NodeJS
 brew install node
+
+
+# PHP, composer
+#brew tap homebrew/php
+brew install composer
