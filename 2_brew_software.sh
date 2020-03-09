@@ -87,3 +87,7 @@ brew install espeak
 # Ansible, Terraform
 brew install ansible
 brew install terraform
+
+
+# NodeJS
+brew install node
