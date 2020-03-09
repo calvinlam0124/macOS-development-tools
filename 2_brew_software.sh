@@ -59,3 +59,6 @@ brew cask install keepassxc
 
 # Libre Office
 brew cask install libreoffice
+
+# Atom
+brew cask install atom
