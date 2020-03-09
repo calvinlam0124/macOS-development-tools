@@ -55,3 +55,7 @@ brew install tldr
 
 # KeePass XC
 brew cask install keepassxc 
+
+
+# Libre Office
+brew cask install libreoffice
