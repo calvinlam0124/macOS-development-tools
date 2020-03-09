@@ -16,7 +16,6 @@
 1. [Atom] install by brew and [packages](atom_packages.list)
 1. [Atom php-tools](https://wwphp-fb.github.io/article/interoperability/atom-for-php-developers/)
 1. [Chrome](https://www.google.com/chrome/)
-1. [Chrome postman](https://www.getpostman.com/) - RESTful client
 1. [GIMP](https://www.gimp.org/)
 1. Netbean
 1. Eclipse

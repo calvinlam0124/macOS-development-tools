@@ -62,3 +62,6 @@ brew cask install libreoffice
 
 # Atom
 brew cask install atom
+
+# Postman - RESTful api client
+brew cask install postman
