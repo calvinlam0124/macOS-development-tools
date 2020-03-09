@@ -65,3 +65,8 @@ brew cask install atom
 
 # Postman - RESTful api client
 brew cask install postman
+
+# GraphQL playground
+brew cask install graphql-playground
+
+
