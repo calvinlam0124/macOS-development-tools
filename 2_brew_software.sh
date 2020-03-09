@@ -112,5 +112,12 @@ brew cask install skype
 brew cask install slack 
 
 
-# DB browser for SQLite
+# DB browser for SQLite, SequelPro, Sequal-Pro-Nightly
 brew cask install db-browser-for-sqlite
+brew cask install sequel-pro
+#brew cask install sequel-pro-nightly # download manaully
+
+
+
+# Zeplin.io
+brew cask install zeplin
