@@ -121,3 +121,6 @@ brew cask install sequel-pro
 
 # Zeplin.io
 brew cask install zeplin
+
+# Clipboard manager
+brew cask install clipy
