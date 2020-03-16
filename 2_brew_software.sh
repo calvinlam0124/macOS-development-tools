@@ -98,7 +98,9 @@ brew install node
 # PHP, composer
 #brew tap homebrew/php
 brew install composer
-
+# for Now.sh 
+# https://github.com/juicyfx/now-php/blob/master/errors/now-dev-no-local-php.md
+brew install php
 
 
 # SourceTree
