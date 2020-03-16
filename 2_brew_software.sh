@@ -128,3 +128,6 @@ brew cask install zeplin
 
 # Clipboard manager
 brew cask install clipy
+
+# GraphViz
+brew install graphviz
