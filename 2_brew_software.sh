@@ -131,6 +131,3 @@ brew cask install clipy
 
 # GraphViz
 brew install graphviz
-
-# dir env - auto read .env file
-brew install direnv
