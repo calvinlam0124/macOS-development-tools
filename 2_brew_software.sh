@@ -131,3 +131,7 @@ brew cask install clipy
 
 # GraphViz
 brew install graphviz
+
+# Image optimizer
+# ./guetzli --nomemlimit bees.png bees2.png
+brew install guetzli
