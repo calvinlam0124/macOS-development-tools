@@ -139,3 +139,7 @@ brew install guetzli
 
 # git-flow
 brew install git-flow
+
+
+# go lang
+brew install go
