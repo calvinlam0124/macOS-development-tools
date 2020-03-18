@@ -74,6 +74,9 @@ brew cask install slack
 # Unzip
 brew cask install the-unarchiver
 
+# VLC - video player
+brew cask install vlc
+
 ### Development
 # jq for JSON pretty print
 brew install jq
