@@ -87,6 +87,10 @@ brew cask install db-browser-for-sqlite
 # MySQL workbench
 brew cask install mysqlworkbench
 
+# navicat-for-mysql 
+# Its paid ware
+#brew cask install navicat-for-mysql
+
 # DB browser for SQLite
 brew cask install db-browser-for-sqlite
 # SequelPro, Sequal-Pro-Nightly for MySQL
