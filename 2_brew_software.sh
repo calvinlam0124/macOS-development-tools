@@ -33,6 +33,7 @@ brew install tldr
 brew cask install keepassxc 
 
 # Install all build-tools, in case you need to compile or ./configure
+# https://github.com/meritlabs/merit/issues/344#issuecomment-387852292
 brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boost-build libevent
 
 
