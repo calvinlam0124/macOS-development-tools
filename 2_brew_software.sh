@@ -77,6 +77,9 @@ brew cask install the-unarchiver
 # VLC - video player
 brew cask install vlc
 
+# mind-map
+brew cask install XMind
+
 ### Development
 # jq for JSON pretty print
 brew install jq
