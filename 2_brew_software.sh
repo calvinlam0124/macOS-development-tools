@@ -1,6 +1,9 @@
 #!/bin/sh
 
-### Basic
+
+#==============================================================================
+# Basic
+#==============================================================================
 # basic tools
 brew install wget
 brew install tree
@@ -37,7 +40,9 @@ brew cask install keepassxc
 brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boost-build libevent
 
 
-### Server / deployment / network operation
+#==============================================================================
+# Server / deployment / network operation
+#==============================================================================
 # aws CLI
 brew install awscli
 
@@ -58,7 +63,9 @@ brew cask install wireshark
 brew cask install clipy
 
 
-### Office operation
+#==============================================================================
+# Office operation
+#==============================================================================
 # Pandoc and PDF library
 # may need enter your password
 brew cask install basictex
@@ -150,7 +157,9 @@ brew install git-flow
 brew install dash
 
 
-### Multimedia
+#==============================================================================
+# Multimedia
+#==============================================================================
 # ffmpeg
 brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
 
