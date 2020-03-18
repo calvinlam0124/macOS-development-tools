@@ -32,6 +32,9 @@ brew install tldr
 # KeePass XC
 brew cask install keepassxc 
 
+# Install all build-tools, in case you need to compile or ./configure
+brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boost-build libevent
+
 
 ### Server / deployment / network operation
 # aws CLI
