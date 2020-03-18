@@ -135,3 +135,7 @@ brew install graphviz
 # Image optimizer
 # ./guetzli --nomemlimit bees.png bees2.png
 brew install guetzli
+
+
+# git-flow
+brew install git-flow
