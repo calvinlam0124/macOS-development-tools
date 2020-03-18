@@ -156,3 +156,6 @@ brew install espeak
 # Image optimizer
 # ./guetzli --nomemlimit bees.png bees2.png
 brew install guetzli
+
+
+echo ">>> INSTALL DOCKER MANUALLY"
