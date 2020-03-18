@@ -71,6 +71,9 @@ brew cask install gimp
 brew cask install skype
 brew cask install slack 
 
+# Unzip
+brew cask install the-unarchiver
+
 ### Development
 # jq for JSON pretty print
 brew install jq
