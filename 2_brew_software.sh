@@ -128,6 +128,11 @@ brew install graphviz
 # git-flow
 brew install git-flow
 
+# dash - univerial offline manual
+# GUI: https://kapeli.com/dash
+brew install dash
+
+
 ### Multimedia
 # ffmpeg
 brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
