@@ -62,6 +62,9 @@ brew cask install wireshark
 # Clipboard manager
 brew cask install clipy
 
+# Virtual box
+brew cask install virtualbox
+
 
 #==============================================================================
 # Office operation
