@@ -39,6 +39,14 @@ brew cask install keepassxc
 # https://github.com/meritlabs/merit/issues/344#issuecomment-387852292
 brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boost-build libevent
 
+# BitBar and plugins
+# https://getbitbar.com/plugins/AWS
+# brew cask install bitbar
+
+# Übersicht and plugins
+# http://tracesof.net/uebersicht-widgets/
+# brew cask install ubersicht
+
 
 #==============================================================================
 # Server / deployment / network operation
