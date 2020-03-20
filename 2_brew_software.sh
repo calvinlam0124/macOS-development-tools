@@ -47,6 +47,10 @@ brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boo
 # http://tracesof.net/uebersicht-widgets/
 # brew cask install ubersicht
 
+# Daley Cmd+Q for quit an application
+brew tap dteoh/sqa
+brew cask install slowquitapps
+
 
 #==============================================================================
 # Server / deployment / network operation
