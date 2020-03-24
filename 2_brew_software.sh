@@ -107,12 +107,18 @@ brew cask install vlc
 # mind-map
 brew cask install XMind
 
-### Development
+#==============================================================================
+# Development
+#==============================================================================
+
 # jq for JSON pretty print
 brew install jq
 #brew install python-yq
 brew tap blacksmoke16/tap
 brew install oq
+
+# ProtoBuff
+brew install protobuf
 
 # SQLite browser
 brew cask install db-browser-for-sqlite
