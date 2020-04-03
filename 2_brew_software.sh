@@ -51,6 +51,10 @@ brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boo
 brew tap dteoh/sqa
 brew cask install slowquitapps
 
+# Web Browser
+brew cask install google-chrome
+brew cask install firefox
+brew install brave-browser
 
 #==============================================================================
 # Server / deployment / network operation
@@ -119,9 +123,6 @@ brew install oq
 
 # ProtoBuff
 brew install protobuf
-
-# SQLite browser
-brew cask install db-browser-for-sqlite
 
 # MySQL workbench
 brew cask install mysqlworkbench
