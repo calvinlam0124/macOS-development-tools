@@ -143,6 +143,10 @@ brew cask install atom
 # Postman - RESTful api client
 brew cask install postman
 
+# Insomnia - RESTful api client 
+brew cask install insomnia
+brew cask install insomnia-designer
+
 # GraphQL playground
 brew cask install graphql-playground
 
