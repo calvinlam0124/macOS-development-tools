@@ -92,6 +92,13 @@ brew cask install basictex
 brew install pdflatex
 brew install pandoc
 
+#
+# image magick
+# Add border (sample): convert testing.png -border 1x1 -bordercolor black result.png
+# Add effect (sample): convert testing.png -charcoal 2 example.png
+# Resize (sample): convert testing.png -resize 1920 (or x1080) example.png
+brew install imagemagick
+
 # Libre Office
 brew cask install libreoffice
 
