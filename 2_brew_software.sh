@@ -12,6 +12,16 @@ brew install nmap
 brew install telnet
 
 # Process management tools
+# conf: /usr/local/etc/supervisord.ini
+# supervisorctl update
+# supervisorctl start expose
+# 
+# [program:expose]
+# command=/usr/bin/php /home/expose/expose serve
+# numprocs=1
+# autostart=true
+# autorestart=true
+# user=forge
 brew install supervisor
 
 # cUrl with HTTP/2
