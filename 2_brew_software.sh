@@ -11,6 +11,9 @@ brew install screen
 brew install nmap
 brew install telnet
 
+# Process management tools
+brew install supervisor
+
 # cUrl with HTTP/2
 brew install curl --with-nghttp2
 
