@@ -1,15 +1,19 @@
+
+code --install-extension byi8220.indented-block-highlighting
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension dbaeumer.jshint
 code --install-extension dracula-theme.theme-dracula
 code --install-extension ericadamski.carbon-now-sh
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension golang.Go
 code --install-extension HookyQR.beautify
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension liuji-jim.vue
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
-code --install-extension ms-vscode.Go
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
+code --install-extension pranaygp.vscode-css-peek
 code --install-extension redhat.java
 code --install-extension sdras.night-owl
 code --install-extension shalldie.background
