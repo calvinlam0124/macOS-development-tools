@@ -95,6 +95,9 @@ brew cask install clipy
 # may need enter your password
 brew cask install virtualbox
 
+# k8s IDE lens
+brew cask install lens
+
 
 #==============================================================================
 # Office operation
