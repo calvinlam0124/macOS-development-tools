@@ -193,6 +193,9 @@ brew cask install sourcetree
 # Zeplin.io
 brew cask install zeplin
 
+# Figma
+brew cask install figma
+
 # GraphViz
 brew install graphviz
 
