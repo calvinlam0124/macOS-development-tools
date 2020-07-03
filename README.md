@@ -7,6 +7,7 @@
 1. [macOS additional setting](additional.md)
 1. Pandoc
 1. [GPG](https://gpgtools.org/)
+1. [JetBrains font - mono](https://www.jetbrains.com/lp/mono/)
 
 ### Common tools
 1. Docker and compose
