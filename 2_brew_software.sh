@@ -11,6 +11,10 @@ brew install screen
 brew install nmap
 brew install telnet
 
+# youtube downloader
+# https://github.com/ytdl-org/youtube-dl
+brew install youtube-dl
+
 # Process management tools
 # conf: /usr/local/etc/supervisord.ini
 # supervisorctl update
