@@ -1,0 +1,57 @@
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="powerlevel9k/powerlevel9k"
+plugins=(zsh-syntax-highlighting)
+source $ZSH/oh-my-zsh.sh
+
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=2
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time time)
+POWERLEVEL9K_MODE='nerdfont-complete'
+
+function docker-php() {
+  docker run -it --rm --name localhost-bash-php -v $(pwd):/var/www/app php:latest "$@"
+}
+function docker-mysql-server() {
+  # docker run --name localhost-mysql -p 3306:3306 -v /Users/workspace/mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=111111 -d mysql
+  docker run -it --rm --name localhost-bash-mysql -p 3306:3306  -e MYSQL_ROOT_PASSWORD=111111 -d mysql
+}
+function docker-ubuntu() {
+  docker run -it --rm --name localhost-ubuntu ubuntu:18.04 "$@"
+}
+function docker-centos() {
+  docker run -it --rm --name localhost-centos centos:8 "$@"
+}
+function docker-alpine() {
+  # PS: no bash, should be "sh"
+  docker run -it --rm --name localhost-alpine alpine:3.11.0 "$@"
+}
+function docker-composer(){
+  docker run --rm -it \
+    --volume $PWD:/app \
+    composer sh -c 'composer global require hirak/prestissimo; "$@"'
+}
+function docker-composer-init(){
+  docker run --rm -it \
+    --volume $PWD:/app \
+    composer sh -c "composer init -n"
+  # docker run --rm -it --volume $PWD:/app composer sh -c "composer init -n && composer dump-autoload"
+}
+### node npm
+function node-npm(){
+  docker run --rm -it \
+    --volume $PWD:/app \
+    -w /app \
+    node:13.6.0-stretch sh -c 'npm install '
+}
+# php-cs-fixer fix --dry-run --config=/Users/office/.php-cs-fixer/.php_cs.no_risky test.php --diff
+function php-cs-fixer-dry-run() {
+  php-cs-fixer fix --dry-run --config=./.php_cs $(pwd) --diff
+}
+function docker-mongo() {
+  docker run --name some-mongo -d mongo:4.2.3-bionic
+}
+
+### Nginx
+function docker-nginx(){
+  docker run --name tmp-nginx -v $(pwd):/usr/share/nginx/html:ro -p 80:80 nginx
+}
