@@ -1,0 +1,114 @@
+### Installation
+```sh
+composer global require friendsofphp/php-cs-fixer
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+# macOS
+brew install php-cs-fixer
+```
+
+### Basic Usage
+```sh
+# risky
+php-cs-fixer fix --config=/Users/office/.php-cs-fixer/.php_cs --allow-risky=yes --dry-run --diff $(pwd)
+# not risky
+php-cs-fixer fix --config=/Users/office/.php-cs-fixer/.php_cs.no_risky --dry-run --diff $(pwd)
+
+php-cs-fixer fix $(pwd)
+php-cs-fixer fix $(pwd) --dry-run
+php-cs-fixer fix $(pwd) --diff
+php-cs-fixer fix $(pwd) --rules=@PSR2
+php-cs-fixer fix $(pwd) --allow-risky=yes
+
+php-cs-fixer fix --dry-run --diff $(pwd) --rules='{"concat_space": {"spacing": "none"}}'
+
+php-cs-fixer fix --dry-run --diff $(pwd) --rules='{"binary_operator_spaces": {"operators": {"=":"align"}}}'
+
+php-cs-fixer fix --dry-run --diff $(pwd) --rules=@PSR2,@Symfony,@PhpCsFixer
+
+```
+
+
+### Rules
+
+
+### test
+```php
+        'binary_operator_spaces' => [
+            'default' => 'single_space', // exactly one
+            'operators' => [
+                '=' => 'single_space_minimal', // at least one
+                '=>' => 'single_space_minimal', // at least one
+            ]
+        ],
+```
+
+
+### Sample .php_cs
+```php
+<?php
+
+/**
+ * Config for PHP-CS-Fixer ver2
+ */
+
+$rules = [
+    '@PSR2' => true,
+    '@PhpCsFixer:risky' => true,
+    '@Symfony:risky' => true,
+
+    // addtional rules
+    'array_syntax' => ['syntax' => 'short'],
+    'blank_line_before_statement' => true,
+    'no_extra_blank_lines' => true,
+    'no_multiline_whitespace_before_semicolons' => true,
+    'no_short_echo_tag' => true,
+    'no_unused_imports' => true,
+    'no_whitespace_in_blank_line' => true,
+    'not_operator_with_successor_space' => true,
+
+    // Better View
+    'binary_operator_spaces' => [
+        'operators' => [
+            '=' => 'align',
+        ]
+    ],
+    'method_chaining_indentation' => true,
+    'concat_space' => [
+        'spacing' => 'one',
+    ],
+    'explicit_string_variable' => true,
+
+    // Depends
+    'declare_strict_types' => true,
+
+    // Improvement
+    'mb_str_functions' => true,
+    'dir_constant' => true,
+
+
+    // Other
+    'error_suppression' => [
+        'noise_remaining_usages' => true,
+    ],
+];
+
+$excludes = [
+    // add exclude project directory
+
+    'vendor',
+    'node_modules',
+];
+
+return PhpCsFixer\Config::create()
+    ->setRules($rules)
+    ->setFinder(
+        PhpCsFixer\Finder::create()
+            ->exclude($excludes)
+            ->notName('README.md')
+            ->notName('*.xml')
+            ->notName('*.yml')
+    );
+```
+
+### Thrid party link reference
+https://mlocati.github.io/php-cs-fixer-configurator/#version:2.16|fixer:binary_operator_spaces

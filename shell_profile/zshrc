@@ -53,5 +53,6 @@ function docker-mongo() {
 
 ### Nginx
 function docker-nginx(){
-  docker run --name tmp-nginx -v $(pwd):/usr/share/nginx/html:ro -p 80:80 nginx
+  #docker run --rm --name tmp-nginx -v $(pwd):/usr/share/nginx/html:ro -p 80:80 nginx
+  docker run --rm --name tmp-nginx -v $(pwd):/usr/share/nginx/html:ro -v ~/.nginx/conf.d-compression.conf:/etc/nginx/conf.d/compression.conf:ro -p 80:80 nginx
 }
