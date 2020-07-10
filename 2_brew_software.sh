@@ -84,6 +84,9 @@ brew cask install now
 
 # Ngrok
 brew cask install ngrok
+# Serveo (Ngrok alternative)
+# ssh -R 80:localhost:5000 serveo.net
+
 
 # Ansible, Terraform
 brew install ansible
