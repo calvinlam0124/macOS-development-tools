@@ -45,7 +45,7 @@ function node-npm(){
 }
 # php-cs-fixer fix --dry-run --config=/Users/office/.php-cs-fixer/.php_cs.no_risky test.php --diff
 function php-cs-fixer-dry-run() {
-  php-cs-fixer fix --dry-run --config=./.php_cs $(pwd) --diff
+  php-cs-fixer fix --dry-run --allow-risky=yes --config=./.php_cs $(pwd) --diff
 }
 function docker-mongo() {
   docker run --name some-mongo -d mongo:4.2.3-bionic

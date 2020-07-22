@@ -27,3 +27,7 @@ code --install-extension WallabyJs.quokka-vscode
 code --install-extension wix.vscode-import-cost
 
 code --install-extension byi8220.indented-block-highlighting
+
+# vue 
+code --install-extension octref.vetur
+

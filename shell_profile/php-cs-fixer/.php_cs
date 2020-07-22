@@ -8,6 +8,8 @@ $rules = [
     '@PSR2' => true,
     '@PhpCsFixer:risky' => true,
     '@Symfony:risky' => true,
+    '@PHP71Migration:risky' => true,
+    '@PHP73Migration' => true,
 
     // addtional rules
     'array_syntax' => ['syntax' => 'short'],
