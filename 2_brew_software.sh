@@ -193,6 +193,7 @@ brew install composer
 # for Now.sh 
 # https://github.com/juicyfx/now-php/blob/master/errors/now-dev-no-local-php.md
 brew install php
+brew install php-cs-fixer
 
 # go lang
 brew install go
