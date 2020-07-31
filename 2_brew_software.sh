@@ -10,6 +10,7 @@ brew install tree
 brew install screen
 brew install nmap
 brew install telnet
+brew install bat # cat with syntax higtlight
 
 # youtube downloader
 # https://github.com/ytdl-org/youtube-dl
