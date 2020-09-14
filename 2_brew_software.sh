@@ -12,6 +12,9 @@ brew install nmap
 brew install telnet
 brew install bat # cat with syntax higtlight
 
+# funny cli
+brew install thefuck
+
 # youtube downloader
 # https://github.com/ytdl-org/youtube-dl
 brew install youtube-dl
