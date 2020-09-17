@@ -109,6 +109,9 @@ brew cask install virtualbox
 # k8s IDE lens
 brew cask install lens
 
+# SSH GUI
+brew install termius
+
 
 #==============================================================================
 # Office operation

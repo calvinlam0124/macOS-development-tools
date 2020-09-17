@@ -8,6 +8,9 @@ POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=2
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time time)
 POWERLEVEL9K_MODE='nerdfont-complete'
 
+function docker-node() {
+  docker run -it --rm --name localhost-bash-node -v $(pwd):/var/www/app node:latest "$@"
+}
 function docker-php() {
   docker run -it --rm --name localhost-bash-php -v $(pwd):/var/www/app php:latest "$@"
 }
