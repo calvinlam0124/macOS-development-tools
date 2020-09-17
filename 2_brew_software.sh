@@ -110,8 +110,7 @@ brew cask install virtualbox
 brew cask install lens
 
 # SSH GUI
-brew install termius
-
+brew cask install termius
 
 #==============================================================================
 # Office operation
