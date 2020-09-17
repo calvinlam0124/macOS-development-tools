@@ -38,6 +38,10 @@ brew install curl --with-nghttp2
 # Gun Core Utils - watch
 brew install coreutils 
 
+# https://packages.debian.org/unstable/utils/moreutils
+# More Utils - ts (timestamp output)
+brew install moreutils
+
 # support NTFS 
 # https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
 brew install ntfs-3g
