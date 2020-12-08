@@ -116,6 +116,9 @@ brew cask install lens
 # SSH GUI
 brew cask install termius
 
+# OpenVPN client
+brew cask install tunnelblick
+
 #==============================================================================
 # Office operation
 #==============================================================================
