@@ -170,6 +170,9 @@ brew install protobuf
 # MySQL workbench
 brew cask install mysqlworkbench
 
+# TablePlus
+brew install --cask tableplus
+
 # navicat-for-mysql 
 # Its paid ware
 #brew cask install navicat-for-mysql
