@@ -11,6 +11,7 @@ brew install screen
 brew install nmap
 brew install telnet
 brew install bat # cat with syntax higtlight
+brew install watch
 
 # funny cli
 brew install thefuck
