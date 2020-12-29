@@ -184,6 +184,9 @@ brew cask install db-browser-for-sqlite
 brew cask install sequel-pro
 #brew cask install sequel-pro-nightly # download manaully
 
+# redis
+brew  install --cask another-redis-desktop-manager
+
 # Atom
 brew cask install atom
 
