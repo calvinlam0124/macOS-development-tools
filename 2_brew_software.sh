@@ -260,4 +260,10 @@ brew install espeak
 brew install guetzli
 
 
+### Zsh
+# brew install zsh-syntax-highlighting
+
 echo ">>> INSTALL DOCKER MANUALLY"
+
+
+
