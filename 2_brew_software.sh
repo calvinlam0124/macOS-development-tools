@@ -85,6 +85,7 @@ brew install brave-browser
 # font
 brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono
+brew install --cask font-source-code-pro
 
 #==============================================================================
 # Server / deployment / network operation
