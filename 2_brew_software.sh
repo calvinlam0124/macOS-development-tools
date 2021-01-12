@@ -59,7 +59,7 @@ brew install ntfs-3g
 brew install tldr
 
 # KeePass XC
-brew cask install keepassxc 
+brew install --cask keepassxc 
 
 # Install all build-tools, in case you need to compile or ./configure
 # https://github.com/meritlabs/merit/issues/344#issuecomment-387852292
@@ -67,19 +67,19 @@ brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boo
 
 # BitBar and plugins
 # https://getbitbar.com/plugins/AWS
-# brew cask install bitbar
+# brew install --cask bitbar
 
 # Übersicht and plugins
 # http://tracesof.net/uebersicht-widgets/
-# brew cask install ubersicht
+# brew install --cask ubersicht
 
 # Daley Cmd+Q for quit an application
 brew tap dteoh/sqa
-brew cask install slowquitapps
+brew install --cask slowquitapps
 
 # Web Browser
-brew cask install google-chrome
-brew cask install firefox
+brew install --cask google-chrome
+brew install --cask firefox
 brew install brave-browser
 
 #==============================================================================
@@ -89,10 +89,10 @@ brew install brave-browser
 brew install awscli
 
 # Zeit/Now
-brew cask install now
+brew install --cask now
 
 # Ngrok
-brew cask install ngrok
+brew install --cask ngrok
 # Serveo (Ngrok alternative)
 # ssh -R 80:localhost:5000 serveo.net
 
@@ -102,30 +102,30 @@ brew install ansible
 brew install terraform
 
 # WireShark [password required]
-brew cask install wireshark
+brew install --cask wireshark
 
 # Clipboard manager
-brew cask install clipy
+brew install --cask clipy
 
 # Virtual box
 # may need enter your password
-brew cask install virtualbox
+brew install --cask virtualbox
 
 # k8s IDE lens
-brew cask install lens
+brew install --cask lens
 
 # SSH GUI
-brew cask install termius
+brew install --cask termius
 
 # OpenVPN client
-brew cask install tunnelblick
+brew install --cask tunnelblick
 
 #==============================================================================
 # Office operation
 #==============================================================================
 # Pandoc and PDF library
 # may need enter your password
-brew cask install basictex
+brew install --cask basictex
 brew install pdflatex
 brew install pandoc
 
@@ -137,23 +137,23 @@ brew install pandoc
 brew install imagemagick
 
 # Libre Office
-brew cask install libreoffice
+brew install --cask libreoffice
 
 # GIMP
-brew cask install gimp
+brew install --cask gimp
 
 # IM - Skype, Slack
-brew cask install skype
-brew cask install slack 
+brew install --cask skype
+brew install --cask slack 
 
 # Unzip
-brew cask install the-unarchiver
+brew install --cask the-unarchiver
 
 # VLC - video player
-brew cask install vlc
+brew install --cask vlc
 
 # mind-map
-brew cask install XMind
+brew install --cask XMind
 
 #==============================================================================
 # Development
@@ -169,39 +169,39 @@ brew install oq
 brew install protobuf
 
 # MySQL workbench
-brew cask install mysqlworkbench
+brew install --cask mysqlworkbench
 
 # TablePlus
 brew install --cask tableplus
 
 # navicat-for-mysql 
 # Its paid ware
-#brew cask install navicat-for-mysql
+#brew install --cask navicat-for-mysql
 
 # DB browser for SQLite
-brew cask install db-browser-for-sqlite
+brew install --cask db-browser-for-sqlite
 # SequelPro, Sequal-Pro-Nightly for MySQL
-brew cask install sequel-pro
-#brew cask install sequel-pro-nightly # download manaully
+brew install --cask sequel-pro
+#brew install --cask sequel-pro-nightly # download manaully
 
 # redis
 brew  install --cask another-redis-desktop-manager
 
 # Atom
-brew cask install atom
+brew install --cask atom
 
 # Postman - RESTful api client
-brew cask install postman
+brew install --cask postman
 
 # Insomnia - RESTful api client 
-brew cask install insomnia
-brew cask install insomnia-designer
+brew install --cask insomnia
+brew install --cask insomnia-designer
 
 # GraphQL playground
-brew cask install graphql-playground
+brew install --cask graphql-playground
 
 # XAMPP
-brew cask install xampp
+brew install --cask xampp
 
 # NodeJS
 brew install node
@@ -219,13 +219,13 @@ brew install php-cs-fixer
 brew install go
 
 # SourceTree
-brew cask install sourcetree
+brew install --cask sourcetree
 
 # Zeplin.io
-brew cask install zeplin
+brew install --cask zeplin
 
 # Figma
-brew cask install figma
+brew install --cask figma
 
 # GraphViz
 brew install graphviz
