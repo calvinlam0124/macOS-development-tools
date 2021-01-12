@@ -126,6 +126,9 @@ brew install --cask termius
 # OpenVPN client
 brew install --cask tunnelblick
 
+# Kite - AI powered code completions
+brew install --cask kite
+
 #==============================================================================
 # Office operation
 #==============================================================================
