@@ -160,6 +160,9 @@ brew install --cask vlc
 # mind-map
 brew install --cask XMind
 
+# Notion
+brew install --cask notion
+
 #==============================================================================
 # Development
 #==============================================================================
