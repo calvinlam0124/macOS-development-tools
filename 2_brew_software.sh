@@ -82,6 +82,10 @@ brew install --cask google-chrome
 brew install --cask firefox
 brew install brave-browser
 
+# font
+brew tap homebrew/cask-fonts
+brew install --cask font-jetbrains-mono
+
 #==============================================================================
 # Server / deployment / network operation
 #==============================================================================
