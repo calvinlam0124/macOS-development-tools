@@ -12,4 +12,8 @@
 #dd if=/dev/urandom of=${HOME}/spare.stone bs=1073741824 count=1
 
 # 10 GB
-dd if=/dev/urandom of=${HOME}/spare.stone bs=1073741824 count=10
+# dd if=/dev/urandom of=${HOME}/spare.stone bs=1073741824 count=10
+
+# 10 GB x 5
+# that may run 3~5 min
+for i in {1..5}; do dd if=/dev/urandom of=${HOME}/spare.stone.${i} bs=1073741824 count=10; done
