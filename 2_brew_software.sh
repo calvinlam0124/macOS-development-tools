@@ -214,6 +214,7 @@ brew install --cask insomnia-designer
 
 # GraphQL playground
 brew install --cask graphql-playground
+brew install --cask altair-graphql-client
 
 # XAMPP
 brew install --cask xampp
