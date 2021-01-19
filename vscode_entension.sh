@@ -31,3 +31,5 @@ code --install-extension byi8220.indented-block-highlighting
 # vue 
 code --install-extension octref.vetur
 
+# TabNine
+code --install-extension TabNine.tabnine-vscode
