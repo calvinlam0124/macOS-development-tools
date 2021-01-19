@@ -33,3 +33,6 @@ code --install-extension octref.vetur
 
 # TabNine
 code --install-extension TabNine.tabnine-vscode
+
+# REST client
+code --install-extension humao.rest-client
