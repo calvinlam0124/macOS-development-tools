@@ -83,8 +83,10 @@ brew install --cask slowquitapps
 # Web Browser
 brew install --cask google-chrome
 brew install --cask firefox
+brew install --cask firefox-nightly
 brew install brave-browser
 brew install --cask microsoft-edge
+
 
 # font
 brew tap homebrew/cask-fonts
