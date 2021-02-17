@@ -256,6 +256,8 @@ brew install git-flow
 # GUI: https://kapeli.com/dash
 brew install dash
 
+# MinIO cli
+brew install minio/stable/mc
 
 #==============================================================================
 # Multimedia
