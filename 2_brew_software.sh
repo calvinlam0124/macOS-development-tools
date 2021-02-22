@@ -69,7 +69,8 @@ brew install --cask keepassxc
 brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boost-build libevent
 
 # BitBar and plugins
-# https://getbitbar.com/plugins/AWS
+# https://getbitbar.com/plugins/
+
 # brew install --cask bitbar
 
 # Übersicht and plugins
@@ -98,6 +99,9 @@ brew install --cask font-source-code-pro
 #==============================================================================
 # aws CLI
 brew install awscli
+
+# gcloud
+brew install --cask google-cloud-sdk
 
 # Zeit/Now
 brew install --cask now
