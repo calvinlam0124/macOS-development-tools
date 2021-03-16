@@ -94,6 +94,8 @@ brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono
 brew install --cask font-source-code-pro
 
+# fan widget
+brew install --cask fanny
 #==============================================================================
 # Server / deployment / network operation
 #==============================================================================
@@ -121,6 +123,7 @@ brew install --cask wireshark
 
 # Clipboard manager
 brew install --cask clipy
+brew install --cask flycut
 
 # Virtual box
 # may need enter your password
