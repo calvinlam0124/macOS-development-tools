@@ -92,6 +92,7 @@ brew install --cask microsoft-edge
 # font
 brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono
+brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask font-source-code-pro
 brew install --cask font-sourcecodepro-nerd-font
 
