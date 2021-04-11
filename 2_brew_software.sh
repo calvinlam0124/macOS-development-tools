@@ -93,6 +93,7 @@ brew install --cask microsoft-edge
 brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono
 brew install --cask font-source-code-pro
+brew install --cask font-sourcecodepro-nerd-font
 
 # fan widget
 brew install --cask fanny
