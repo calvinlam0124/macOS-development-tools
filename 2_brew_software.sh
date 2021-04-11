@@ -183,6 +183,8 @@ brew install --cask notion
 # Development
 #==============================================================================
 
+brew install --cask jetbrains-toolbox
+
 # jq for JSON pretty print
 brew install jq
 #brew install python-yq
