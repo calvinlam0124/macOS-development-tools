@@ -285,7 +285,17 @@ brew install guetzli
 
 
 ### Zsh
-# brew install zsh-syntax-highlighting
+brew install zsh
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions 
+git clone https://github.com/zdharma/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# oh-my-zsh
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+# powerlevel9k
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >>  ~/.zshrc
+# check shell
+chsh -s $(which zsh)
 
 echo ">>> INSTALL DOCKER MANUALLY"
 
