@@ -15,6 +15,7 @@ brew install nmap
 brew install telnet
 brew install bat # cat with syntax higtlight
 brew install watch
+brew install pstree
 
 # funny cli
 brew install thefuck
