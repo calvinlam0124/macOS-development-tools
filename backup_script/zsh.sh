@@ -17,3 +17,6 @@ cp -a ~/.p10k.zsh $backup_destination
 
 # bash
 cp -a ~/.bash_profile $backup_destination
+
+# alias
+cp -a ~/calvin_cli_alias.sh $backup_destination
