@@ -144,6 +144,9 @@ brew install --cask tunnelblick
 # Kite - AI powered code completions
 brew install --cask kite
 
+# wrk - stress test tool
+brew install wrk
+
 #==============================================================================
 # Office operation
 #==============================================================================
