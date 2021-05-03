@@ -11,7 +11,8 @@ all:
 	sh ${root_dir}/hosts.sh
 	sh ${root_dir}/docker.sh
 	sh ${root_dir}/cron.sh
-	cp -a /tmp/backup ${backup_destination}
+	sh ${root_dir}/nginx.sh
+	cp -a /tmp/backup/* ${backup_destination}/.
 # add:
 # 	tar -rf archive.tar git.sh
 # list:
