@@ -266,6 +266,7 @@ brew install graphviz
 
 # git-flow
 brew install git-flow
+brew install lazygit
 
 # dash - univerial offline manual
 # GUI: https://kapeli.com/dash
@@ -301,6 +302,7 @@ echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >>  ~/.zshrc
 # check shell
 chsh -s $(which zsh)
 
+brew install ctop
 echo ">>> INSTALL DOCKER MANUALLY"
 
 
