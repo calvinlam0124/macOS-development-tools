@@ -6,6 +6,8 @@
 
 $rules = [
     '@PSR2' => true,
+    '@PSR12' => true,
+    '@PhpCsFixer' => true,
     '@PhpCsFixer:risky' => true,
     '@Symfony:risky' => true,
     '@PHP71Migration:risky' => true,
@@ -22,6 +24,10 @@ $rules = [
     'not_operator_with_successor_space' => true,
 
     // Better View
+    'ordered_imports' => [
+        'imports_order' => ['class', 'function', 'const'],
+        'sort_algorithm' => 'none',
+    ],
     'binary_operator_spaces' => [
         'operators' => [
             '=' => 'align',

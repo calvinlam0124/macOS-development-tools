@@ -20,6 +20,10 @@ $rules = [
     'not_operator_with_successor_space' => true,
 
     // Better View
+    'ordered_imports' => [
+        'imports_order' => ['class', 'function', 'const'],
+        'sort_algorithm' => 'none',
+    ],
     'binary_operator_spaces' => [
         'operators' => [
             '=' => 'align',
