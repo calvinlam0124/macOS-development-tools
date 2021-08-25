@@ -16,6 +16,7 @@ brew install telnet
 brew install bat # cat with syntax higtlight
 brew install watch
 brew install pstree
+brew install sachaos/tap/viddy # mordern watch
 
 # funny cli
 brew install thefuck
