@@ -304,6 +304,9 @@ echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >>  ~/.zshrc
 chsh -s $(which zsh)
 
 brew install ctop
+
+# containerD
+brew install lima
 echo ">>> INSTALL DOCKER MANUALLY"
 
 
