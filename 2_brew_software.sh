@@ -17,6 +17,7 @@ brew install bat # cat with syntax higtlight
 brew install watch
 brew install pstree
 brew install sachaos/tap/viddy # mordern watch
+brew install neovim
 
 # funny cli
 brew install thefuck
@@ -82,6 +83,7 @@ brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boo
 # Daley Cmd+Q for quit an application
 brew tap dteoh/sqa
 brew install --cask slowquitapps
+brew install --cask cheatsheet
 
 # Web Browser
 brew install --cask google-chrome

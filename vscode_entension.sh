@@ -36,3 +36,8 @@ code --install-extension TabNine.tabnine-vscode
 
 # REST client
 code --install-extension humao.rest-client
+
+
+
+# compare text with clipboard
+code --install-extension ryu1kn.partial-diff
