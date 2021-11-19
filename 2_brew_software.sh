@@ -309,7 +309,10 @@ brew install ctop
 
 # containerD
 brew install lima
+brew install dive
+brew install viddy
 echo ">>> INSTALL DOCKER MANUALLY"
+
 
 
 
