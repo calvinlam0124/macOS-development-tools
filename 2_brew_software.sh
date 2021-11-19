@@ -309,7 +309,9 @@ brew install ctop
 
 # containerD
 brew install lima
+# dive php:8.0-rc-fpm-buster
 brew install dive
+# viddy docker p
 brew install viddy
 echo ">>> INSTALL DOCKER MANUALLY"
 
