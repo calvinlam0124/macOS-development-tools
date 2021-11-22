@@ -166,6 +166,8 @@ brew install pandoc
 # Resize (sample): convert testing.png -resize 1920 (or x1080) example.png
 brew install imagemagick
 
+brew install --cask imageoptim
+
 # Libre Office
 brew install --cask libreoffice
 
