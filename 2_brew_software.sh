@@ -102,6 +102,8 @@ brew install --cask font-sourcecodepro-nerd-font
 
 # fan widget
 brew install --cask fanny
+brew install --cask stats
+
 #==============================================================================
 # Server / deployment / network operation
 #==============================================================================
