@@ -229,6 +229,9 @@ brew  install --cask another-redis-desktop-manager
 # Atom
 brew install --cask atom
 
+# text editor
+brew install --cask textbuddy
+
 # Postman - RESTful api client
 brew install --cask postman
 
@@ -321,4 +324,5 @@ echo ">>> INSTALL DOCKER MANUALLY"
 
 
 
-
+# additional
+brew install sf-symbols
