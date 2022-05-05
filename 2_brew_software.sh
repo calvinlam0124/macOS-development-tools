@@ -71,10 +71,10 @@ brew install --cask keepassxc
 # https://github.com/meritlabs/merit/issues/344#issuecomment-387852292
 brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boost-build libevent
 
-# BitBar and plugins
+# XBar (former BitBar) and plugins
 # https://getbitbar.com/plugins/
-
 # brew install --cask bitbar
+brew install --cask xbar
 
 # Übersicht and plugins
 # http://tracesof.net/uebersicht-widgets/
@@ -143,6 +143,10 @@ brew install --cask lens
 # SSH GUI
 brew install --cask termius
 
+# terminal
+brew install --cask hyper
+brew install --cask warp
+
 # OpenVPN client
 brew install --cask tunnelblick
 
@@ -172,6 +176,7 @@ brew install --cask imageoptim
 
 # Libre Office
 brew install --cask libreoffice
+brew install --cask microsoft-office
 
 # GIMP
 brew install --cask gimp
@@ -222,6 +227,7 @@ brew install --cask db-browser-for-sqlite
 # SequelPro, Sequal-Pro-Nightly for MySQL
 brew install --cask sequel-pro
 #brew install --cask sequel-pro-nightly # download manaully
+brew install --cask mongodb-compass
 
 # redis
 brew  install --cask another-redis-desktop-manager
