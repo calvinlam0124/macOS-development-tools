@@ -104,6 +104,9 @@ brew install --cask font-sourcecodepro-nerd-font
 brew install --cask fanny
 brew install --cask stats
 
+# macOs productive tools
+brew install espanso
+
 #==============================================================================
 # Server / deployment / network operation
 #==============================================================================
@@ -132,6 +135,7 @@ brew install --cask wireshark
 # Clipboard manager
 brew install --cask clipy
 brew install --cask flycut
+brew install --cask maccy
 
 # Virtual box
 # may need enter your password
