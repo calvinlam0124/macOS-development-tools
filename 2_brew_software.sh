@@ -212,6 +212,9 @@ brew install jq
 #brew install python-yq
 brew tap blacksmoke16/tap
 brew install oq
+brew install yq
+# csv analyzer
+brew install xsv
 
 # ProtoBuff
 brew install protobuf
