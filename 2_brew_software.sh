@@ -216,6 +216,9 @@ brew install yq
 # csv analyzer
 brew install xsv
 
+# string convert
+brew install --cask devtoys
+
 # ProtoBuff
 brew install protobuf
 
