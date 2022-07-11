@@ -187,6 +187,7 @@ brew install --cask gimp
 
 # IM - Skype, Slack
 brew install --cask skype
+brew install --cask discord
 brew install --cask slack 
 
 # Unzip
