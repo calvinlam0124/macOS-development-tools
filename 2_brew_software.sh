@@ -107,6 +107,9 @@ brew install --cask stats
 # macOs productive tools
 brew install espanso
 
+# window management
+brew install --cask rectangle
+
 #==============================================================================
 # Server / deployment / network operation
 #==============================================================================
