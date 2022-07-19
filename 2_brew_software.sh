@@ -269,6 +269,7 @@ brew install --cask xampp
 # NodeJS
 brew install node
 brew install yarn 
+brew install --cask runjs
 
 # PHP, composer
 #brew tap homebrew/php
