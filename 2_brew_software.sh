@@ -320,6 +320,9 @@ brew install espeak
 brew install guetzli
 
 
+#==============================================================================
+# Shell
+#==============================================================================
 ### Zsh
 brew install zsh
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions 
@@ -347,3 +350,35 @@ echo ">>> INSTALL DOCKER MANUALLY"
 
 # additional
 brew install sf-symbols
+
+#==============================================================================
+# New tools
+#==============================================================================
+# `ls` alternative
+brew install exa
+git clone https://github.com/DarrinTisdale/zsh-aliases-exa.git ~/.oh-my-zsh/custom/plugins/zsh-aliases-exa
+
+# `diff` alternative
+# vim ~/.gitconfig
+#[core]
+#    pager = delta
+brew install git-delta
+
+# `top` alternative
+brew install htop
+
+# `find` alternative
+brew install fd
+
+# `grep` alternative
+brew install ripgrep
+
+# `du -sh` alternative
+brew install dust
+
+# `df -h` alternative
+brew install duf
+
+# `ping` alternative
+brew install prettyping
+
