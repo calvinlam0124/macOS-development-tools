@@ -19,6 +19,9 @@ brew install pstree
 brew install sachaos/tap/viddy # mordern watch
 brew install neovim
 
+# version control tools for brew install some package
+brew install svn
+
 # funny cli
 brew install thefuck
 
