@@ -208,6 +208,9 @@ brew install --cask XMind
 # Notion
 brew install --cask notion
 
+# time tracker - clockify
+brew install --cask clockify
+
 #==============================================================================
 # Development
 #==============================================================================
