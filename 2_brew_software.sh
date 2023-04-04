@@ -79,6 +79,9 @@ brew install autoconf automake libtool berkeley-db4 pkg-config openssl boost boo
 # brew install --cask bitbar
 brew install --cask xbar
 
+# tools bar
+brew install --cask hiddenbar
+
 # Übersicht and plugins
 # http://tracesof.net/uebersicht-widgets/
 # brew install --cask ubersicht
@@ -195,6 +198,7 @@ brew install --cask gimp
 brew install --cask skype
 brew install --cask discord
 brew install --cask slack 
+brew install --cask telegram
 
 # Unzip
 brew install --cask the-unarchiver
@@ -388,3 +392,17 @@ brew install duf
 # `ping` alternative
 brew install prettyping
 
+
+
+
+
+
+
+
+###
+#brew install --cask google-drive
+#LINE
+#TG
+#dropshelf
+#brew install --cask chromium
+#https://www.google.com/chrome/canary/
