@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 #==============================================================================
 # Basic
 #==============================================================================
@@ -33,7 +32,7 @@ brew install youtube-dl
 # conf: /usr/local/etc/supervisord.ini
 # supervisorctl update
 # supervisorctl start expose
-# 
+#
 # [program:expose]
 # command=/usr/bin/php /home/expose/expose serve
 # numprocs=1
@@ -46,13 +45,13 @@ brew install supervisor
 brew install curl --with-nghttp2
 
 # Gun Core Utils - watch
-brew install coreutils 
+brew install coreutils
 
 # https://packages.debian.org/unstable/utils/moreutils
 # More Utils - ts (timestamp output)
 brew install moreutils
 
-# support NTFS 
+# support NTFS
 # https://github.com/osxfuse/osxfuse/wiki/NTFS-3G
 brew install ntfs-3g
 
@@ -68,7 +67,7 @@ brew install ntfs-3g
 brew install tldr
 
 # KeePass XC
-brew install --cask keepassxc 
+brew install --cask keepassxc
 
 # Install all build-tools, in case you need to compile or ./configure
 # https://github.com/meritlabs/merit/issues/344#issuecomment-387852292
@@ -93,11 +92,12 @@ brew install --cask cheatsheet
 
 # Web Browser
 brew install --cask google-chrome
+brew install --cask google-chrome@canary
 brew install --cask firefox
 brew install --cask firefox-nightly
 brew install brave-browser
 brew install --cask microsoft-edge
-
+brew install --cask zen-browser
 
 # font
 brew tap homebrew/cask-fonts
@@ -105,6 +105,7 @@ brew install --cask font-jetbrains-mono
 brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask font-source-code-pro
 brew install --cask font-sourcecodepro-nerd-font
+brew install --cask font-sauce-code-pro-nerd-font
 
 # fan widget
 brew install --cask fanny
@@ -132,7 +133,6 @@ brew install --cask now
 brew install --cask ngrok
 # Serveo (Ngrok alternative)
 # ssh -R 80:localhost:5000 serveo.net
-
 
 # Ansible, Terraform
 brew install ansible
@@ -197,8 +197,9 @@ brew install --cask gimp
 # IM - Skype, Slack
 brew install --cask skype
 brew install --cask discord
-brew install --cask slack 
+brew install --cask slack
 brew install --cask telegram
+brew install --cask microsoft-teams
 
 # Unzip
 brew install --cask the-unarchiver
@@ -214,6 +215,15 @@ brew install --cask notion
 
 # time tracker - clockify
 brew install --cask clockify
+
+#==============================================================================
+# AI-tools
+#==============================================================================
+brew install --cask diffusionbee
+brew install --cask cursor
+brew install --cask windsurf
+brew install ollama
+brew install --cask lm-studio
 
 #==============================================================================
 # Development
@@ -242,7 +252,7 @@ brew install --cask mysqlworkbench
 # TablePlus
 brew install --cask tableplus
 
-# navicat-for-mysql 
+# navicat-for-mysql
 # Its paid ware
 #brew install --cask navicat-for-mysql
 
@@ -254,10 +264,14 @@ brew install --cask sequel-pro
 brew install --cask mongodb-compass
 
 # redis
-brew  install --cask another-redis-desktop-manager
+brew install --cask another-redis-desktop-manager
 
 # Atom
 brew install --cask atom
+
+# vscode
+brew install --cask visual-studio-cod
+brew install --cask visual-studio-code@insiders
 
 # text editor
 brew install --cask textbuddy
@@ -265,7 +279,7 @@ brew install --cask textbuddy
 # Postman - RESTful api client
 brew install --cask postman
 
-# Insomnia - RESTful api client 
+# Insomnia - RESTful api client
 brew install --cask insomnia
 brew install --cask insomnia-designer
 
@@ -278,14 +292,14 @@ brew install --cask xampp
 
 # NodeJS
 brew install node
-brew install yarn 
+brew install yarn
 brew install --cask runjs
 
 # PHP, composer
 #brew tap homebrew/php
 brew install composer
 
-# for Now.sh 
+# for Now.sh
 # https://github.com/juicyfx/now-php/blob/master/errors/now-dev-no-local-php.md
 brew install php
 brew install php-cs-fixer
@@ -321,6 +335,7 @@ brew install minio/stable/mc
 #==============================================================================
 # ffmpeg
 brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
+brew install ffmpeg
 
 # eSpack - Play audio at cli
 brew install espeak
@@ -329,22 +344,24 @@ brew install espeak
 # ./guetzli --nomemlimit bees.png bees2.png
 brew install guetzli
 
-
 #==============================================================================
 # Shell
 #==============================================================================
 ### Zsh
 brew install zsh
-git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions 
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 git clone https://github.com/zdharma/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 # powerlevel9k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >>  ~/.zshrc
+echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >>~/.zshrc
 # check shell
 chsh -s $(which zsh)
+
+# oh-my-posh
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
 
 brew install ctop
 
@@ -354,9 +371,13 @@ brew install lima
 brew install dive
 # viddy docker p
 brew install viddy
+
+# screen monitor control
+brew install --cask monitorcontrol
+# audio control
+brew install --cask background-music
+
 echo ">>> INSTALL DOCKER MANUALLY"
-
-
 
 # additional
 brew install sf-symbols
@@ -365,7 +386,7 @@ brew install sf-symbols
 # New tools
 #==============================================================================
 # `ls` alternative
-brew install exa
+brew install eza
 git clone https://github.com/DarrinTisdale/zsh-aliases-exa.git ~/.oh-my-zsh/custom/plugins/zsh-aliases-exa
 
 # `diff` alternative
@@ -391,12 +412,6 @@ brew install duf
 
 # `ping` alternative
 brew install prettyping
-
-
-
-
-
-
 
 #==============================================================================
 # Game Dev
