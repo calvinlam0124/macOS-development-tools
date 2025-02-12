@@ -330,6 +330,9 @@ brew install dash
 # MinIO cli
 brew install minio/stable/mc
 
+# mock server
+brew install --cask mockoon
+
 #==============================================================================
 # Multimedia
 #==============================================================================
