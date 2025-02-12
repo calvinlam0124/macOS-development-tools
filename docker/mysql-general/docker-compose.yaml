@@ -1,0 +1,15 @@
+services:
+
+  db:
+    image: mysql:8.0.30
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql-data:/var/lib/mysql:delegated
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456!
+      - MYSQL_DATABASE=mcc
+      - MYSQL_USER=mcc_user
+      - MYSQL_PASSWORD=123456!
+    command: --default-authentication-plugin=mysql_native_password --sql_mode=STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+    restart: always

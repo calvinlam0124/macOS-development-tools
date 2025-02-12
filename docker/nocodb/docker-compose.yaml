@@ -1,0 +1,10 @@
+services:
+  nocodb:
+    image: nocodb/nocodb:0.257.2
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./nocodb-data:/usr/app/data/
+    ports:
+      - 10000:8080
+    restart: always
