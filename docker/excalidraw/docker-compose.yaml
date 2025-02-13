@@ -1,0 +1,5 @@
+services:
+    app:
+        image: excalidraw/excalidraw:latest
+        ports:
+          - 23452:80
