@@ -333,6 +333,11 @@ brew install minio/stable/mc
 # mock server
 brew install --cask mockoon
 
+# Build pack
+# https://github.com/buildpacks/homebrew-tap/blob/main/README.md
+brew tap buildpacks/tap
+brew install pack
+
 #==============================================================================
 # Multimedia
 #==============================================================================
