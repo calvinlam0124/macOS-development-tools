@@ -338,6 +338,9 @@ brew install --cask mockoon
 brew tap buildpacks/tap
 brew install pack
 
+# Microsfot dev-tunnels
+brew install --cask devtunnel
+
 #==============================================================================
 # Multimedia
 #==============================================================================
