@@ -355,6 +355,8 @@ brew install espeak
 # ./guetzli --nomemlimit bees.png bees2.png
 brew install guetzli
 
+brew install --cask spotify
+
 #==============================================================================
 # Shell
 #==============================================================================
