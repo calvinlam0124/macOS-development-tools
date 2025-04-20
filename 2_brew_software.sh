@@ -96,6 +96,7 @@ brew install --cask google-chrome@canary
 brew install --cask firefox
 brew install --cask firefox-nightly
 brew install brave-browser
+brew install --cask brave-browser@nightly
 brew install --cask microsoft-edge
 brew install --cask zen-browser
 
@@ -169,6 +170,14 @@ brew install --cask kite
 # wrk - stress test tool
 brew install wrk
 
+### CLI + zsh
+brew install fzf
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+brew install zsh-history-substring-search
+brew install zsh-f-sy-h
+brew install zsh-autosuggestions
+brew install zsh-completions
+
 #==============================================================================
 # Office operation
 #==============================================================================
@@ -206,6 +215,7 @@ brew install --cask the-unarchiver
 
 # VLC - video player
 brew install --cask vlc
+brew install --cask iina
 
 # mind-map
 brew install --cask XMind
@@ -390,6 +400,7 @@ brew install --cask monitorcontrol
 # audio control
 brew install --cask background-music
 
+# docker
 echo ">>> INSTALL DOCKER MANUALLY"
 
 # additional
