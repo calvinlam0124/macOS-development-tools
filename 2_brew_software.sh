@@ -170,14 +170,6 @@ brew install --cask kite
 # wrk - stress test tool
 brew install wrk
 
-### CLI + zsh
-brew install fzf
-brew install jandedobbeleer/oh-my-posh/oh-my-posh
-brew install zsh-history-substring-search
-brew install zsh-f-sy-h
-brew install zsh-autosuggestions
-brew install zsh-completions
-
 #==============================================================================
 # Office operation
 #==============================================================================
@@ -383,6 +375,15 @@ echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >>~/.zshrc
 # check shell
 chsh -s $(which zsh)
 
+### CLI + zsh
+brew install fzf
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+brew install zsh-history-substring-search
+brew install zsh-f-sy-h
+brew install zsh-autosuggestions
+brew install zsh-completions
+echo 'eval "$(zoxide init zsh)"' >>~/.zshrc
+
 # oh-my-posh
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 
@@ -436,6 +437,9 @@ brew install duf
 
 # `ping` alternative
 brew install prettyping
+
+# `cd` alternative
+brew install zoxide
 
 #==============================================================================
 # Game Dev
