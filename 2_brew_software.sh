@@ -280,6 +280,7 @@ brew install --cask textbuddy
 
 # Postman - RESTful api client
 brew install --cask postman
+brew install --cask bruno
 
 # Insomnia - RESTful api client
 brew install --cask insomnia
