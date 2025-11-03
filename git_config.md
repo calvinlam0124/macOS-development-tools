@@ -12,3 +12,20 @@ git config --global alias.log2 "log --graph --abbrev-commit --decorate --format=
 git config --global alias.log3 "log --all --decorate --oneline --graph --stat"
 ```
 ### https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs
+
+
+### gitconfig for delta diff
+```gitconfig
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    dark = true      # or light = true, or omit for auto-detection
+
+[merge]
+    conflictStyle = zdiff3
+```
