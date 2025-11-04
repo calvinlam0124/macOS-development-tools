@@ -29,3 +29,14 @@ git config --global alias.log3 "log --all --decorate --oneline --graph --stat"
 [merge]
     conflictStyle = zdiff3
 ```
+
+
+
+
+### git cli for configuration delta diff
+```shell
+git config --global core.pager delta
+git config --global interactive.diffFilter 'delta --color-only'
+git config --global delta.navigate true
+git config --global merge.conflictStyle zdiff3
+```
